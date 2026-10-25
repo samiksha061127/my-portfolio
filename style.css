@@ -1,0 +1,116 @@
+body{
+    font-family:Arial,sans-serif;
+    background-color:#f0f4f8;
+    color:#333333;
+    margin:0;
+    padding:20px;
+}
+header{
+    background-color:#1e3a5f;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    border-radius:12px;
+}
+section{
+    background-color:white;
+    margin:20px 0;
+    padding:20px;
+    border-radius:10px;
+}
+h2{
+    color:#1e3a5f
+}
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+.skills span{
+    background-color:#1e3a5f;
+    color:white;
+    padding:10px 16px;
+    border-radius:20px;
+    font-size:14px;
+}
+nav{
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+nav a{
+    color: #243b64;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #3977d5;
+}
+#Contact a{
+    display: inline-block;
+    background-color: #243b64;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#Contact a:hover{
+    background-color: #3977d5;
+}
+@media(max-width:600px){
+    header h1{
+        font-size: 28px;
+    }
+    nav a{
+        display: inline-block;
+        margin:6px;
+    }
+    section{
+        padding: 20px;
+    }
+}
+/* Improve project spacing */
+#projects h3{
+    color: #243b64;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+#projects p{
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+.project-card{
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-left: 5px solidc#315c91;
+}
+.project-card h3{
+    color:#315c91;
+    margin-top: 0;
+}
+footer {
+    background-color: #243b64;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+@media (max-width:600px){
+    nav{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    section{
+        padding: 20px;
+        margin: 15px 10px;
+    }
+    h1{
+        font-size: 26px;
+    }
+}
